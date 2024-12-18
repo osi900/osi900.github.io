@@ -1,6 +1,0 @@
-1. 重新產生電文
-	$ mvn xmlbeans.plugin:compile
-	$ mvn install:install-file -Dfile=./src/main/webapp/WEB-INF/lib/eai.jar -DgroupId=tw.com.taipeifubon -DartifactId=papcard-eai -Dversion=1.0 -Dpackaging=jar
-
-2. 包版
-	$ mvn clean package
